@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 """
+Use dynamic programming (i.e. memoize overlapping sub-problems) to determine
+maximum score.
+
+Run it like:
+
+    $ ./party.py < test.json
+
 """
 import argparse
 import collections

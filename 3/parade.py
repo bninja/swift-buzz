@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 """
+Uses networkx to construct DG from supplied edges, then verifies its acyclic
+and displays a topological sort if it is.
+
+Run it like:
+
+    $ ./parade.py < test1.json
+    ...
+    $ ./parade.py < test2.json
+
 """
 import argparse
 import re

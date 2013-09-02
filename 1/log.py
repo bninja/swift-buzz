@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 Use a heap to maintain sorted window of events. Oldest event can be consumed
-from window heap once its exceeds the ripeness threshold.
+from window heap once it *exceeds* the ripeness threshold.
 
 Run it like:
 
@@ -41,7 +41,10 @@ def parse_events(io, strict=False):
         yield event
 
 
-def window_sort_events(events, window_size=300):
+DEFAULT_WINDOW_SIZE_SECS = 300
+
+
+def window_sort_events(events, window_size=DEFAULT_WINDOW_SIZE_SECS):
     max_key = None
     window = []
     for event in events:
