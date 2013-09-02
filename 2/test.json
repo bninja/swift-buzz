@@ -1,0 +1,42 @@
+[
+  {
+    "party-animal-score": 2,
+    "boss": null,
+    "name": "Al Buquerque"
+  },
+  {
+    "party-animal-score": 12.1,
+    "boss": "Al Buquerque",
+    "name": "Ferb Jinglemore"
+  },
+  {
+    "party-animal-score": 34.3,
+    "boss": "Al Buquerque",
+    "name": "Click N. Clack"
+  },
+  {
+    "party-animal-score": -0.4,
+    "boss": "Ferb Jinglemore",
+    "name": "Carl Balgruuf"
+  },
+  {
+    "party-animal-score": 44.91,
+    "boss": "Carl Balgruuf",
+    "name": "Moe Shroom"
+  },
+  {
+    "party-animal-score": -9999.99,
+    "boss": "Carl Balgruuf",
+    "name": "Jerky McGetsDrunkAndPeesInYourFridge"
+  },
+  {
+    "party-animal-score": 14.4,
+    "boss": "Click N. Clack",
+    "name": "Howard M. Burgers"
+  },
+  {
+    "party-animal-score": 25,
+    "boss": "Click N. Clack",
+    "name": "Soren de Kiester"
+  }
+]
