@@ -28,7 +28,7 @@ run
 #
 ```bash
 ./2/party.py < ./2/test.json
-./2/party.py --required 'Al ' < ./2/test.json
+./2/party.py --required 'Al Buquerque' < 2/test.json
 ```
 
 3
